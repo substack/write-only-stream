@@ -1,0 +1,33 @@
+{
+  "name": "write-only-stream",
+  "version": "1.0.0",
+  "description": "wrap a readable/writable stream to be write-only",
+  "main": "index.js",
+  "dependencies": {
+    "readable-stream": "^1.1.13"
+  },
+  "devDependencies": {
+    "tape": "^2.13.2",
+    "concat-stream": "^1.4.6",
+    "through": "^2.3.4",
+    "through2": "^1.1.1"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/substack/write-only-stream.git"
+  },
+  "homepage": "https://github.com/substack/write-only-stream",
+  "keywords": [
+    "stream",
+    "writeonly"
+  ],
+  "author": {
+    "name": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net"
+  },
+  "license": "MIT"
+}
