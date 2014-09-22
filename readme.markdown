@@ -3,6 +3,8 @@
 wrap a readable/writable stream to be write-only
 to prevent mucking up or disclosing output
 
+[![build status](https://secure.travis-ci.org/substack/write-only-stream.png)](http://travis-ci.org/substack/write-only-stream)
+
 # example
 
 
