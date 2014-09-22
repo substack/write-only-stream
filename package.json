@@ -1,6 +1,6 @@
 {
   "name": "write-only-stream",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "wrap a readable/writable stream to be write-only",
   "main": "index.js",
   "dependencies": {
