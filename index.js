@@ -16,5 +16,9 @@ module.exports = function (stream) {
     wo.once('finish', function () {
         stream.end();
     });
+    
+    stream.on('error', function (err) {
+        wo.emit('error', err);
+    });
     return wo;
 };
